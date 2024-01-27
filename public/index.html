@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -107,13 +107,25 @@
     </section>
     <!--END HOME SECTION-->
   
-    
+    <div id="weatherContainer">
+        <h1>Weather</h1>
+        <label for="citySelect">Select City:</label>
+        <select id="citySelect">
+            <option value="Astana">Astana</option>
+            <option value="London">London</option>
+            <option value="Paris">Paris</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Rome">Rome</option>
+        </select>
+        <button onclick="getWeather()">Get Weather</button>
+        <div id="weatherResult"></div>
+    </div>
 
    
 
     <!--FOOTER SECTION -->
     <div id="footer">
-        2014 www.yourdomain.com | All Right Reserved  
+        Elzhanov Asanali SE-2208
          
     </div>
     <!-- END FOOTER SECTION -->
